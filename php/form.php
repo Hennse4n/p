@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Envía el correo electrónico
     if (mail($destinatario, $asunto, $contenido)) {
         echo "El mensaje ha sido enviado correctamente.";
-        header(Location: );
+        header(Location: ../p/Gracias.html);
     } else {
         echo "Hubo un error al enviar el mensaje.";
     }
