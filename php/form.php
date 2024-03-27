@@ -18,5 +18,5 @@ $para = 'hennsen1287@gmail.com';
 $asunto = 'Asunto del Mensaje';
 
 mail($para, $asunto, utf8_decode($msg)$header);
-header("Location:C:\Users\henns\OneDrive\Escritorio\Archivos\ARCHIVOS HTML\Proyecto\my_mail.html");
+header("Location:Gracias.html);
 ?>
